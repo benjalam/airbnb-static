@@ -10,6 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta charset="utf-8">
+    <title>Airbnb home</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
 
@@ -25,9 +32,8 @@
   </head>
 
   <body class="<%= page_classes %>">
-
-    <%= partial "navbar" %>
-    <%= yield %>
-
+    <%= partial "navbar" %>   <!-- call _navbar.html.erb partial -->
+    <%= yield %>              <!-- Page content is injected here -->
+    <%= partial "footer" %>   <!-- call _footer.html.erb partial -->
   </body>
 </html>
