@@ -1,0 +1,44 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-paris.jpg
+  owner_picture: seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  room: 3
+  max_guests: 10
+  rating: 4.5
+romain:
+  owner_name: Romain Paillard
+  picture: card-london.jpeg
+  owner_picture: romain.jpg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  room: 5
+  max_guests: 9
+  rating: 5
+Anne:
+  owner_name: Anne anne
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpg
+  name: Anne's home
+  summary: Nice flat in Brussels
+  city: Brussel, BE
+  wifi: true
+  room: 2
+  max_guests: 13
+  rating: 4.3
+Benjamin:
+  owner_name: Benjamin Lambrou
+  picture: marseille.jpg
+  owner_picture: benjamin.jpg
+  name: Benjamin's home
+  summary: Beautiful loft in Marseille
+  city: Marseille, FR
+  wifi: true
+  room: 2
+  max_guests: 13
+  rating: 5

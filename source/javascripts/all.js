@@ -1,3 +1,3 @@
-//= require jquery
+v//= require jquery
 //= require bootstrap-sprockets
 //= require_tree .
